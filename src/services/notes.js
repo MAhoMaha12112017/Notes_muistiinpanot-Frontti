@@ -1,7 +1,7 @@
 import axios from 'axios'
 // const baseUrl = 'http://localhost:3001/notes'
 // const baseUrl = 'https://stormy-depths-61784.herokuapp.com/notes' // heroku
-const baseUrl = '/notes'; // frontend ja backend samassa osoitteessa
+const baseUrl = '/api/notes'; // frontend ja backend samassa osoitteessa
 
 const getAll = () => {
   const request = axios.get(baseUrl);
